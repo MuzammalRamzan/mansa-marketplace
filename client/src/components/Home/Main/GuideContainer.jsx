@@ -6,7 +6,7 @@ import ThirdImg from "../../../assets/images/third.png";
 const GuideComponent = () => {
     const [index, setIndex] = useState(0);
     return (
-        <div className="px-2 md:px-24 lg:px-38 xl:px-48 2xl:px-58 mb-32 text-white">
+        <div className="px-2 md:px-24 lg:px-38 xl:px-48 2xl:px-58 mb-32 text-white text-center">
             <div className="text-4xl font-bold mb-8">HOW P2P WORKS</div>
             <div className="text-second-theme mb-8">Your step by step guide to using our P2P platform</div>
             <div className="flex justify-center mb-8">

@@ -3,7 +3,7 @@ import { Icon } from '@iconify/react';
 
 const FeatureContainer = () => {
     return (
-        <div className="flex flex-col mb-32 px-2 md:px-24 lg:px-38 xl:px-48 2xl:px-58">
+        <div className="flex flex-col mb-32 px-2 md:px-24 lg:px-38 xl:px-48 2xl:px-58 text-center">
             <div className="text-4xl font-bold mb-8">Our Features</div>
             <div className="text-second-theme mb-16">Here is what makes us different from others</div>
             <div className="flex flex-wrap justify-between">

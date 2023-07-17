@@ -51,6 +51,7 @@ const FaqComponent = () => {
             {
                 rows.map((row, index) => 
                     <div key={index} className={`mb-8 text-left cursor-pointer ${index === selectedIndex ? "border-2 border-first-theme rounded-lg" : ""}`} onClick={() => handleIndex(index)}>
+                        <div className="text-lg p-4 bg-first-theme rounded-lg flex justify-between items-center">{row.title}</div>
                         <div className={`text-second-theme p-4 ${index === selectedIndex ? "block" : "hidden"}`}>{row.content}</div>
                     </div>
                 )

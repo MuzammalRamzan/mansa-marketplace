@@ -12,7 +12,7 @@ const MainContainer = () => {
             <div className="w-full md:w-6/12 m-auto text-center my-8 text-second-theme">
                 "A fully decentralized P2P platform where you can buy and sell crypto with cash using your preffered payment methods.
             </div>
-            <div className="my-12">
+            <div className="my-12 flex justify-center">
                 <GradButton size="lg" title="Start Trading" />
             </div>
             <img className="w-full md:w-10/12 mx-auto border-2 rounded-lg border-first-theme" src={MainImg} alt="home" />
